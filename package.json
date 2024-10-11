@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "homepage": "https://imadshaker.github.io/imadshakerportfolio",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
