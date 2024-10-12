@@ -1,0 +1,5 @@
+# Ignore .map files generated in the build process
+build/*.map
+build/static/js/*.map
+build/static/css/*.map
+
